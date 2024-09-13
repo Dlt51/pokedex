@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    background-color: #282e35; /* Azul escuro */
+    color: #ffffff; /* Cor do texto para contraste */
+    font-family: Arial, sans-serif; /* Fonte para o texto */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+}
+
+h2 {
+    text-align: center;
+    margin-top:30 px; /* Espaçamento superior */
+}
+
+table {
+    border-collapse: collapse; /* Corrige o estilo de colapso das bordas */
+    color: #fff; /* Cor do texto na tabela */
+    margin: 20px auto; /* Centraliza a tabela e adiciona margens */
+}
+
+th, td {
+    border: 1px solid #fff; /* Cor da borda */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #004080; /* Azul mais escuro para cabeçalhos */
+}
+
+img {
+    max-width: 70px; /* Tamanho máximo das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+
+.veneno {
+    background-color: #612f61; /* Fundo roxo para a célula "Veneno" */
+    color: #ffffff; /* Cor do texto para contraste */
+    background-image: url('poison.gif'); /* Imagem GIF de fundo */
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir a célula */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo da célula */
+}
+
+.fogo {
+    background-color: #FF6600; /* Fundo laranja para a palavra "Fogo" */
+    color: #fff; /* Cor do texto para contraste */
+    background-image: url('fire.gif'); /* Imagem GIF de fundo */
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir a célula */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo da célula */
+}
+
+.agua {
+    background-color: #3399FF; /* Fundo azul para a palavra "Água" */
+    color: #fff; /* Cor do texto para contraste */
+    background-image: url('water.gif'); /* Imagem GIF de fundo */
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir a célula */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo da célula */
+}
+
+.grama {
+    background-color: #e95b23; /* Fundo verde para a palavra "Grama" */
+    color: #ffffff; /* Cor do texto para contraste */
+    background-image: url('grass.gif'); /* Imagem GIF de fundo */
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir a célula */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo da célula */
+}
+
+.voador {
+    background-color: #6666FF; /* Fundo azul claro para a palavra "Voador" */
+    color: #fff; /* Cor do texto para contraste */
+    background-image: url('flying.gif'); /* Imagem GIF de fundo */
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir a célula */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo da célula */
+}
